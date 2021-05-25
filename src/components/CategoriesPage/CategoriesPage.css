@@ -1,0 +1,11 @@
+.gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-items .box-item a img{
+    height: 240px;
+    object-fit: cover;
+}
+a.gallery-filter{
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.image-gallery-icon{
+    width: 60px;
+}
+.image-gallery-right-nav {
+    right: 25px;
+}
+.image-gallery-fullscreen-button {
+    right: 25px;
+}

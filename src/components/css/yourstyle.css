@@ -1,0 +1,59 @@
+/*******************************************************************************
+ Add your custom css styles here
+ *******************************************************************************/
+ 
+
+ 
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .bg>img{
+    width: 100%;
+  }
+  .butt-link:hover{
+    font-weight: bold;
+  }
+
+
+  #select_services{
+    max-width: 100%;
+    min-width: 100%;
+    display: inline-block;
+    margin-right: 1em;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #eventdate{
+    max-width: 100%;
+    min-width: 100%;
+    display: inline-block;
+    margin-right: 1em;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.flat-form #contact-form {
+  max-width: 650px;
+  margin: 20px auto;
+  float: none;
+}
+
+.section-columns-text .custom-inner {
+  padding: 50px;
+}
+@media only screen and (max-width: 1036px){
+
+  .nav-holder{
+    display: block;
+    padding: 0;
+    transition: all .5s ease-in-out;
+    height: 0;
+  }
+  .nav-holder.open{
+    height: auto;
+    padding: 30px 0;
+  }
+}
